@@ -17,7 +17,7 @@ def max_num(count:list):
 print("The largest number: ", max_num(list_number))
 
 # Q3: Create an odd numbers list from the elements of a range from 1200 to 2000 with steps of 125, using [ List Comprehension ].
-odd_num:list = [x for x in range(1200, 2000, 125) if x%1 == 0]
+odd_num:list = [num for num in range(1200, 2000, 125) if num % 1 == 0]
 print("Odd number list: ", odd_num)
 
 # Q4: use list slicing to get a new list from the previous list (odd numbers list) starting from the start to the 5th element in the list.
