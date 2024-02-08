@@ -19,4 +19,5 @@ for movie in movies:
 movies_Rated.sort(key=lambda x: x[2], reverse=True)
 
 for movie in movies_Rated:
-    print(f"{movie[0]} ({movie[1]}) - Avergae rating: {movie[2]}⭐")
+    if movie[2] > 6:
+        print(f"{movie[0]} ({movie[1]}) - Avergae rating: {movie[2]}⭐")
