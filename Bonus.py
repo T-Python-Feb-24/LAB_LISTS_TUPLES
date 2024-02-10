@@ -8,10 +8,11 @@ movies = [
 ]
 
 
+      
 
 
 for titile , year ,rating in movies:
      Average=sum(rating) / len(rating)
      
-     if Average > 6 :
-           print("{} ({}) - Averaga rating : {:.2f} *".format(titile,year,Average))
+     if Average > 6:
+           print(f"-{titile} ({year}) - Averaga rating : {Average:.2f} *")
