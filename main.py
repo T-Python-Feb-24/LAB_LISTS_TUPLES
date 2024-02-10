@@ -18,3 +18,6 @@ largest_number(numbers)
 oddList= [x for x in RangeNumbers if x%2==1 ]
 print(oddList)
 print(oddList[0:5])
+#Another two slicing 
+print(oddList[0:2]) 
+print(oddList[0:1])
