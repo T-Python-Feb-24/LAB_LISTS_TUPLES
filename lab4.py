@@ -53,10 +53,10 @@ def display(movies):
 
 movies =[("home alone" ,1999, [5,6,8,10]),
        ("the walking dead" ,2001, [3,8,7,4]),
-       ("the 100" ,2003, [5,7,9,10]),
+       ("the 100" ,2003, [9,7,9,10]),
        ("peaky Blenders" ,1998, [6,8,9,10]),
-       ("the hunting" ,2000, [7,8,9,1]),
-      ("Narcos" ,1996, [4,6,8,9]) ]
+       ("the hunting" ,2000, [7,8,9,8]),
+      ("Narcos" ,1996, [9,6,8,9]) ]
  
 filtered= filter(movies)
 display(filtered)
