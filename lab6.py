@@ -1,8 +1,13 @@
 # Given the following list : [2, 3, 4, 5, 15, 1, 43, 20]
 # Q1: Write a function that takes a list as a parameter, and then returns  the sum  of all the items in that list.
-my_list =[2, 3, 4, 5, 15, 1, 43, 20]
-sum = sum(my_list)
-print(sum)
+
+def calculate_sum(numbers):
+    return sum(numbers)  
+
+my_list = [2, 3, 4, 5, 15, 1, 43, 20]
+
+total = calculate_sum(my_list)
+print(total)
 
 # Q2: Write a function that takes a list as a parameter, and then returns the largest number from a list of numbers.
 def find_largest_number(my_list):
