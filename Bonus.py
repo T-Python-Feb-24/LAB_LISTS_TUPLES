@@ -7,12 +7,11 @@ movies = [
     ("Forrest Gump", 2003, [1, 2, 3, 4, 5, 1])
 ]
 
-
-      
-
-
+     
 for titile , year ,rating in movies:
      Average=sum(rating) / len(rating)
      
      if Average > 6:
            print(f"-{titile} ({year}) - Averaga rating : {Average:.2f} *")
+           
+
