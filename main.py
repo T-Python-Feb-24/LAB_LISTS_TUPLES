@@ -20,4 +20,4 @@ oddNumbersList = [num for num in oddNumbers if num % 2 == 1]
 print(oddNumbersList)
 
 
-newNumbers = oddNumbersList[1: 5]
+newNumbers = oddNumbersList[: 5]
