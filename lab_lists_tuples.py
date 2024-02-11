@@ -28,16 +28,15 @@ largest_number = largest_from_list(list1)
 print(f"The largest number in the list: {largest_number}")
 
 # 3. Craeting an odd numbers list from the range 1200 to 2000 with steps of 125
-odd_numbers_list = []
-for number in range(1200, 2000, 125):
-    if number % 2 != 0:
-        odd_numbers_list.append(number)
+odd_numbers_list = [number for number in range(1200 , 2000, 125)if number % 2 != 0]
+
 print(f"List of the odd numbers from(1200,2000,125): {odd_numbers_list}")
+
 
 # 4. useing the list slicing to get new list from odd_numbers_list
 # (starting from the start to the 5th element in the list) 
 # there is no 5th element so lets try slice it to the second :)
-odd_numbers_sublist = odd_numbers_list[:2]
+odd_numbers_sublist = odd_numbers_list[:5]
 print(f"List slicing from the previus list: {odd_numbers_sublist}")
 
 
